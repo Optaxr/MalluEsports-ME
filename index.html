@@ -1,24 +1,129 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html>
-	<head><style>
-body {
-  background-image: url("https://i.pinimg.com/originals/2e/05/9f/2e059f481ac28896b05693f07f20be9d.jpg");
-  background-repeat: yes-repeat;
-  background-size: 100%;
-}
-</style>
-		<title>MalluEsportsRP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="main.css" />
-	</head>
-	<body class="is-preload">
-			<header id="header">
-				<img src="https://1.bp.blogspot.com/-xYV03jXo1Vk/YEdQuDlEIsI/AAAAAAAAAn0/CEURvFtlYlU_Ew2hnAlBFR92hF9ZkOs4wCNcBGAsYHQ/s320/logo.png" width="30%">
-				<p>MalluEsports Rp (MERP) is a Freeroam Mallu RP Server developed by MalluEsports Gaming Community. Fully Advanced server </p>
-				<a href="https://discord.gg/kVD8E63qfM" class="discord">Discord</a>
-				<a href="fivem://connect/3.138.195.161:30120" class="fivem">Play MERP</a>
-			</header>
-			<script src="assets/js/main.js"></script>
-	</body>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MalluEsports</title>
+<link rel="shortcut icon" href="images/brand.png">
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+<script type="text/javascript" src="js/jquery.fullpage.js"></script>
+<link type="text/css" rel="stylesheet" href="css/lightslider.css" />  
+<script src="js/lightslider.js" type="text/javascript"></script>
+<!--using FontAwesome-->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div id="fullpage">
+	<!--section-1-------->
+	<section>
+	<!--navigation--------------------->
+	<nav>
+	<!--logo------------>
+	<div class="logo">MalluEsports</div>	
+	<!--right-naviagtion------------->
+	<div class="r-nav">
+	<!--website design-------->
+	<a href="https://discord.gg/kVD8E63qfM">JOIN US</a>
+	
+	</div>
+	</nav>
+	<!--center-text---------------->
+	<div class="text">
+	<!--earth-heading----------->
+	<div class="earth">
+	<span>M</span>
+	<span>E</span>
+	</div>
+	<!--planet-heading-->
+	<h1>MALLUESPORTS</h1>
+	<!--button------->
+	<div><button><a href="fivem://connect/3.138.195.161:30120"><p style="color:white;"><b>CONNECT TO MERP</b></p></button></div>
+		
+	</div>
+	<!--social----------------->
+	<div class="social">
+	<!--paragraph----------->
+	<p>Follow ME And Get Connect With Us.</p>
+	<!--icons---------------->
+        <div class="social-icon">
+	<a href="https://discord.gg/kVD8E63qfM"><i class="fab fa-discord"></i></a>
+	<a href="#"><i class="fab fa-instagram"></i></a>
+	</div>
+	</div>
+	</section>
+	<!--section-2-------->
+	<section>
+	<!--heading------------------------->
+	<div class="explore-h">
+	<!--Explore-heading-->
+	<h1>MERP Gallery</h1>
+	<!--paragraph----->
+	<p>MalluEsports Rp (MERP) is a Freeroam Mallu RP Server developed by MalluEsports Gaming Community.Fully Advanced server</p>
+	</div>
+	<!--boxes------->
+	<div class="box-container">
+	<!--box-1--------------->
+		<ul id="autoWidth" class="cs-hidden">
+  <li class="item-a">
+	<div class="box-1">
+	<p>RP Shots 1</p>	
+	</div>
+	 </li>
+	<!--box-2--------------->
+	<li class="item-b">
+	<div class="box-2">
+	<p>RP Shots 2</p>	
+	</div>
+	</li>
+	<!--box-3--------------->
+	<li class="item-c">
+	<div class="box-3">
+	<p>RP Shots 3</p>	
+	</div>
+	</li>
+	<!--box-4--------------->
+	<li class="item-c">
+	<div class="box-4">
+	<p>RP Shots 4</p>	
+	</div>
+	</li>
+	 </ul>
+	</div>
+		
+		
+		<footer>
+	<!--logo------------->
+	<div class="copyright">| MALLUESPORTS GAMING COMMUNITY</div>
+	<!--menu-------------->	
+				
+	</footer>
+	</section>
+
+	<!--section-3 -------->
+	</div>
+		
+	<!--script-------------->
+	<script type="text/javascript">
+	//for scroll
+	$('#fullpage').fullpage();
+		
+	//for Slider
+	 $(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });
+		
+		
+	
+
+	</script>
+</body>
 </html>
